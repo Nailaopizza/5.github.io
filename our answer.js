@@ -1,5 +1,5 @@
 function refuse() {
     alert("Haha no.");
-    audioElement.play();
+    var audio = document.getElementById("audio");
+        audio.play();
 }
-
