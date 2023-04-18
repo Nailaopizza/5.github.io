@@ -84,4 +84,11 @@ hr{
 
 .footer {
   font-size: 40px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100%;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
 }
