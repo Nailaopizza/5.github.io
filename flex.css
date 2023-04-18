@@ -22,14 +22,14 @@ body{
 }
 
 .container {
-  margin: 10px;
+  margin: 0;
   padding: 0;
   font-family: "Earwig Factory", cursive;
   font-size: 25px;
   color: #ffffff;
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 90%;
   min-height: 100%;
   align-items: center;
   justify-content: center;
