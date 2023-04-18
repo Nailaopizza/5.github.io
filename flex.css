@@ -8,18 +8,30 @@
     font-family: Earwig Factory;
     src: url('earwig\ factory\ rg.otf');
 }
-html,
-body {
+
+
+
+html{
+  font-family: "Earwig Factory", cursive;
+  font-size: 25px;
+  background-image: url("flat\,750x\,075\,f-pad\,750x1000\,f8f8f8.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 110%;
+}
+
+@media only screen and (max-width:768px){
+  html{
+    background-size: 350%;
+  }
+}
+
+.container {
   margin: 10px;
   padding: 0;
   font-family: "Earwig Factory", cursive;
   font-size: 25px;
-  background-image: url("flat\,750x\,075\,f-pad\,750x1000\,f8f8f8.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 350%;
-  background-color: #000000;
   color: #ffffff;
   display: flex;
   flex-direction: column;
@@ -29,14 +41,30 @@ body {
   justify-content: center;
 }
 
-header {
-    background-color: #000000;
+.header {
+    margin: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    min-height: 100%;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.image-text{
+  background-color: #000000;
+}
+
+hr{
+  width: 90%;
 }
 
 .button {
     background-color: #000000; 
     border: none;
-    color: rgb(255, 0, 0);
+    color: #ff0000;
     padding: 15px 32px;
     text-align: center;
     display: inline-block;
@@ -47,12 +75,13 @@ header {
     background-color: #ffffff;
 }
 
-aside {
+.aside {
+    position: relative;
+    left: 20%;
     width: 40%;
-    margin-left: 40%;
     color: #000000;
 }
 
-footer {
+.footer {
   font-size: 40px;
 }
