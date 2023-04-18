@@ -18,13 +18,7 @@ html{
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 110%;
-}
-
-@media only screen and (max-width:768px){
-  html{
-    background-size: 350%;
-  }
+  background-size: cover;
 }
 
 .container {
